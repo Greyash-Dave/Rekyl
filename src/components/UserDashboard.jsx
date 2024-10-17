@@ -130,11 +130,11 @@ export default function UserDashboard() {
               <form className="settings-form">
                 <div className="form-group">
                   <label>Full Name</label>
-                  <input type="text" defaultValue="John Doe" />
+                  <input type="text" defaultValue="Grey" />
                 </div>
                 <div className="form-group">
                   <label>Email</label>
-                  <input type="email" defaultValue="john.doe@example.com" />
+                  <input type="email" defaultValue="grey@example.com" />
                 </div>
                 <div className="form-group">
                   <label>Notification Preferences</label>
@@ -195,7 +195,7 @@ export default function UserDashboard() {
       <main className="dashboard-main">
         <header className="dashboard-header">
           <div className="header-title">
-            <h1>Welcome back, John!</h1>
+            <h1>Welcome back, Grey!</h1>
             <p>Track your recycling impact and manage your rewards</p>
           </div>
           <div className="header-actions">
